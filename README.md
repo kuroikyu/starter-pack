@@ -1,4 +1,4 @@
-# Simple Project Starter
+# Starter Pack
 Ready to go file structure for creating a basic static site.
 
 The file includes:
