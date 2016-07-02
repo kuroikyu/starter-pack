@@ -1,0 +1,27 @@
+// - - - - - - Variables - - - - - - //
+$main: #fff
+$secondary: #fff
+$highlight: #fff
+
+$background: #fff
+$text: #000
+
+$white: #fff
+
+/* - - - - - - Global Styles - - - - - - */
+.clearfix
+  &::before, &::after
+    content: ''
+    display: table
+  &::after
+    clear: both
+
+.wrapper
+  width: 800px
+  max-width: 90%
+  margin: 0 auto
+
+.muted
+  color: transparentize($text, .35)
+
+/* - - - - - - Styles - - - - - - */
