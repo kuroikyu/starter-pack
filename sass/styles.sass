@@ -1,4 +1,7 @@
-// - - - - - - Variables - - - - - - //
+/* --------------------------------------------------------------------------
+   Variables
+   -------------------------------------------------------------------------- */
+
 $main: #fff
 $secondary: #fff
 $highlight: #fff
@@ -8,7 +11,11 @@ $text: #000
 
 $white: #fff
 
-/* - - - - - - Global Styles - - - - - - */
+
+/* --------------------------------------------------------------------------
+   Global Styles / Helper Classes
+   -------------------------------------------------------------------------- */
+
 .clearfix
   &::before, &::after
     content: ''
@@ -24,4 +31,19 @@ $white: #fff
 .muted
   color: transparentize($text, .35)
 
-/* - - - - - - Styles - - - - - - */
+::selection
+    text-shadow: none
+    background: $highlight
+
+
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid #ccc
+  margin: 1em 0
+  padding: 0
+
+/* --------------------------------------------------------------------------
+   Styles
+   -------------------------------------------------------------------------- */
